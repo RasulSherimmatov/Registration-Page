@@ -1,0 +1,59 @@
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url("../images/bg2.png");
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .form {
+        width: 400px;
+        height: 500px;
+        background-color: black;
+        opacity: 0.6;
+        margin-left: 475px;
+        margin-top: 70px;
+        text-align: center;
+    }
+    h2 {
+        color: gold;
+        padding-top: 15px;
+    }
+    input {
+        width: 250px;
+        height: 35px;
+        margin-top: 5px;
+    }
+    input:hover {
+        background-color: gold;
+    }
+    input:focus {
+        border-color: green;
+    }
+    button {
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+        background-color: gold;
+        border: hidden;
+        border-radius: 5px;
+    }
+    p {
+        color: gold;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("../images/bg2.png");
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    div.form {
+        width: 60%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.6;
+    }
+    h2 {
+        color: gold;
+    }
+}

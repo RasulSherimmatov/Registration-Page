@@ -1,0 +1,27 @@
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url("../images/bg2.png");
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .form {
+        width: 30%;
+        height: 500px;
+        background-color: black;
+        opacity: 0.6;
+        margin-left: 475px;
+        margin-top: 70px;
+        text-align: center;
+    }
+    h2 {
+        color: gold;
+        padding-top: 15px;
+    }
+    img {
+        width: 30%;
+        height: 30%;
+    }
+    p {
+        color: gold;
+    }
+}
